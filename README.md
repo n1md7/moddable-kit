@@ -28,6 +28,9 @@ moddable-kit/
 ├── express/             # Express-like HTTP server + router
 │   ├── manifest.json
 │   └── src/
+├── database/            # Preference-backed Storage + Entity ORM
+│   ├── manifest.json
+│   └── src/
 └── …                    # more libs land here over time
 ```
 
@@ -36,9 +39,10 @@ The repo name and the **import prefixes are independent** — you import `expres
 
 ## Libraries
 
-| Import prefix          | Folder                 | What it is                                              |
-|------------------------|------------------------|---------------------------------------------------------|
-| `express`              | [`express`](./express) | A tiny Express-like HTTP server + router for MCUs.      |
+| Import prefix          | Folder                   | What it is                                              |
+|------------------------|--------------------------|---------------------------------------------------------|
+| `express`              | [`express`](./express)   | A tiny Express-like HTTP server + router for MCUs.      |
+| `database`             | [`database`](./database) | `Storage` (Preference wrapper) + a small `Entity` ORM.  |
 
 More to come — this repo is where they'll collect.
 

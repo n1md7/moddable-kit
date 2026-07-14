@@ -1,0 +1,6 @@
+{
+  "modules": {
+    "database/storage": "./src/storage",
+    "database/entity": "./src/entity"
+  }
+}
